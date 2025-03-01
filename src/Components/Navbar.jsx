@@ -26,7 +26,6 @@ export default function Navbar() {
         </NavLink>
         <NavLink
           to="/contact"
-          onClick={() => isActive}
           className={({ isActive }) =>
             `${isActive ? "font-semibold text-black" : ""}`
           }
