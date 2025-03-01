@@ -1,7 +1,6 @@
 import React from "react";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
-import profile from "../assets/Profile.jpeg";
 import { FaHtml5 } from "react-icons/fa";
 import { FaCss3Alt } from "react-icons/fa";
 import { FaJs } from "react-icons/fa";
@@ -42,7 +41,7 @@ export default function Hero() {
           </div>
         </div>
         <div className="h-72 w-72 rounded-full overflow-hidden shadow-zinc-500 shadow-2xl">
-          <img src={profile} alt="profile" className="h-full w-full" />
+          <img src="/Profile.jpeg" alt="profile" className="h-full w-full" />
         </div>
       </div>
       <div className="flex px-[368px] items-center gap-8 py-10">
