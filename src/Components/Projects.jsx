@@ -41,14 +41,14 @@ export default function Projects() {
             <a
               href="https://github.com/dikshitshrestha/Ecommerce"
               target="_blank"
-              className="font-semibold flex items-center gap-1.5"
+              className="font-semibold flex items-center gap-1 text-yellow-500"
             >
               Code <FaGithub />
             </a>
             <a
               href="https://clothingecommerce-rouge.vercel.app/"
               target="_blank"
-              className="font-semibold flex items-center gap-1"
+              className="font-semibold flex items-center gap-1 text-yellow-500"
             >
               Live Demo <LuSquareArrowOutUpRight />
             </a>
@@ -74,14 +74,14 @@ export default function Projects() {
             <a
               href="https://github.com/dikshitshrestha/Portfolio_Builder_Frontend"
               target="_blank"
-              className="font-semibold flex items-center gap-1.5"
+              className="font-semibold flex items-center gap-1.5 text-sky-600"
             >
               Code <FaGithub />
             </a>
             <a
               href="https://nirvanta-portfolio-builder.vercel.app/"
               target="_blank"
-              className="font-semibold flex items-center gap-1"
+              className="font-semibold flex items-center gap-1 text-sky-600"
             >
               Live Demo <LuSquareArrowOutUpRight />
             </a>
@@ -122,14 +122,14 @@ export default function Projects() {
             <a
               href="https://github.com/dikshitshrestha/Hair_Salon"
               target="_blank"
-              className="font-semibold flex items-center gap-1.5"
+              className="font-semibold flex items-center gap-1.5 text-emerald-700"
             >
               Code <FaGithub />
             </a>
             <a
               href="https://mastersandmane.vercel.app/"
               target="_blank"
-              className="font-semibold flex items-center gap-1"
+              className="font-semibold flex items-center gap-1 text-emerald-700"
             >
               Live Demo <LuSquareArrowOutUpRight />
             </a>
