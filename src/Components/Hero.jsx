@@ -10,8 +10,8 @@ import { LuSquareArrowOutUpRight } from "react-icons/lu";
 
 export default function Hero() {
   return (
-    <div className="bg-zinc-100 h-max py-10 lg:py-28 container mx-auto w-full px-4">
-      <div className="flex flex-col-reverse lg:flex-row justify-center items-center gap-12">
+    <div className="bg-zinc-100 h-max py-10 lg:py-28 xl container mx-auto w-full px-4">
+      <div className="flex flex-col-reverse lg:flex-row justify-center items-center gap-6">
         <div>
           <div className="text-xl lg:text-5xl text-center font-bold">
             <h1>Front-End React Developer</h1>
@@ -41,7 +41,7 @@ export default function Hero() {
             </a>
           </div>
         </div>
-        <div className="h-72 w-72 rounded-full overflow-hidden shadow-zinc-500 shadow-2xl">
+        <div className="h-44 xl:h-96 xl:w-96 rounded-full overflow-hidden shadow-zinc-500 shadow-2xl">
           <img src="/Profile.jpeg" alt="profile" className="h-full w-full" />
         </div>
       </div>
