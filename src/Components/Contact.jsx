@@ -23,34 +23,34 @@ export default function Contact() {
     },
   ];
   return (
-    <div className="flex py-28 justify-center bg-zinc-100 h-[610px] px-56 container mx-auto">
-      <div className="">
-        <h1 className="text-2xl text-center py-8 font-semibold">
+    <div className="flex lg:py-28 py-6 justify-center bg-zinc-100 lg:h-[610px] lg:px-56 container mx-auto">
+      <div>
+        <h1 className="lg:text-2xl text-xl text-center lg:py-8 font-semibold">
           Feel <span className="text-sky-500">free</span> to{" "}
           <span className="text-red-500">contact</span> me{" "}
           <span className="text-yellow-400">on:</span>
         </h1>
-        <div className="grid grid-cols-2 gap-16">
+        <div className="flex flex-col md:flex-row justify-start lg:grid lg:grid-cols-2 gap-5 mt-5 lg:gap-16">
           {contact.map((item, index) => (
-            <div className="flex items-center gap-3 py-3 justify-center w-full text-blue-950">
-              <div className="text-5xl">{item.icon}</div>
+            <div className="flex items-center lg:gap-3 justify-start w-full text-blue-950">
+              <div className="lg:text-5xl text-4xl">{item.icon}</div>
               <div>
-                <h1 className="font-semibold">{item.name}</h1>
-                <h1>{item.data}</h1>
+                <h1 className="font-semibold text-sm">{item.name}</h1>
+                <h1 className="text-sm">{item.data}</h1>
               </div>
             </div>
           ))}
-          <div className="flex items-center gap-3 justify-center text-blue-950">
-            <div className="text-5xl">
+          <div className="flex items-center gap-3 lg:justify-center text-blue-950">
+            <div className="lg:text-5xl text-4xl">
               <FaLinkedin />
             </div>
             <div>
-              <h1 className="font-semibold">LinkedIn</h1>
+              <h1 className="font-semibold text-sm">LinkedIn</h1>
               <h1>
                 <a
                   href="https://www.linkedin.com/in/dikshit-shrestha-7716a12b9/"
                   target="_blank"
-                  className="text-red-500"
+                  className="text-red-500 text-sm"
                 >
                   Click Here
                 </a>
