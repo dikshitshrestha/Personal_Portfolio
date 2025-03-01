@@ -74,7 +74,7 @@ export default function Projects() {
             <a
               href="https://github.com/dikshitshrestha/Portfolio_Builder_Frontend"
               target="_blank"
-              className="font-semibold flex items-center gap-1.5 text-sky-600"
+              className="font-semibold flex items-center gap-1 text-sky-600"
             >
               Code <FaGithub />
             </a>
@@ -122,7 +122,7 @@ export default function Projects() {
             <a
               href="https://github.com/dikshitshrestha/Hair_Salon"
               target="_blank"
-              className="font-semibold flex items-center gap-1.5 text-emerald-700"
+              className="font-semibold flex items-center gap-1 text-emerald-700"
             >
               Code <FaGithub />
             </a>

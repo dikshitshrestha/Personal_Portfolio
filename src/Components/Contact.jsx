@@ -32,7 +32,7 @@ export default function Contact() {
         </h1>
         <div className="flex flex-col md:flex-row justify-start lg:grid lg:grid-cols-2 gap-5 mt-5 lg:gap-16">
           {contact.map((item, index) => (
-            <div className="flex items-center lg:gap-3 justify-start w-full text-blue-950">
+            <div className="flex items-center gap-3 justify-start w-full text-blue-950">
               <div className="lg:text-5xl text-4xl">{item.icon}</div>
               <div>
                 <h1 className="font-semibold text-sm">{item.name}</h1>
