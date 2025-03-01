@@ -10,16 +10,17 @@ import { LuSquareArrowOutUpRight } from "react-icons/lu";
 
 export default function Hero() {
   return (
-    <div className="bg-zinc-100 h-[610px] py-28">
-      <div className="flex justify-center items-center gap-12">
+    <div className="bg-zinc-100 h-max py-10 lg:py-28 container mx-auto w-full px-4">
+      <div className="flex flex-col-reverse lg:flex-row justify-center items-center gap-12">
         <div>
-          <div className="text-6xl font-bold">
-            <h1>Front-End React</h1>
-            <h1>Developer</h1>
+          <div className="text-xl lg:text-5xl text-center font-bold">
+            <h1>Front-End React Developer</h1>
           </div>
-          <div className="py-7 text-zinc-500 text-[19px]">
-            <p>Hi, I'm Dikshit Shrestha. A passionate Front-end React</p>
-            <p>Developer based in Teku, Kathmandu.</p>
+          <div className="py-7 text-zinc-500 lg:text-[19px]">
+            <p>
+              Hi, I'm Dikshit Shrestha. A passionate Front-end React Developer
+              based in Teku, Kathmandu.
+            </p>
           </div>
           <div className="flex text-3xl gap-4 items-center">
             <a
@@ -44,11 +45,11 @@ export default function Hero() {
           <img src="/Profile.jpeg" alt="profile" className="h-full w-full" />
         </div>
       </div>
-      <div className="flex px-[368px] items-center gap-8 py-10">
-        <h1 className="font-semibold">
+      <div className="flex items-center justify-center gap-2 lg:gap-8 py-10">
+        <h1 className="font-semibold flex">
           Tech Stack <span className="font-thin ml-2">|</span>
         </h1>
-        <div className="flex text-4xl gap-9">
+        <div className="flex text-2xl gap-4 lg:gap-9">
           <div className="text-[#E34F26]">
             <FaHtml5 />
           </div>

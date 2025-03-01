@@ -23,7 +23,7 @@ export default function Contact() {
     },
   ];
   return (
-    <div className="flex py-28 justify-center bg-zinc-100 h-[610px] px-56">
+    <div className="flex py-28 justify-center bg-zinc-100 h-[610px] px-56 container mx-auto">
       <div className="">
         <h1 className="text-2xl text-center py-8 font-semibold">
           Feel <span className="text-sky-500">free</span> to{" "}

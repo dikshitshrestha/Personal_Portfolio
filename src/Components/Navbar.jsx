@@ -3,11 +3,11 @@ import { NavLink } from "react-router-dom";
 
 export default function Navbar() {
   return (
-    <div className="flex px-10 py-8 justify-between items-center">
-      <h1 className="font-bold text-xl flex">
+    <div className="flex py-6 gap-4 items-center justify-center w-full">
+      <h1 className="font-bold flex">
         Dikshit <span className="text-rose-500">.dev</span>
       </h1>
-      <nav className="flex gap-6 text-zinc-500">
+      <nav className="flex gap-4 text-zinc-500 text-center">
         <NavLink
           to="/"
           className={({ isActive }) =>

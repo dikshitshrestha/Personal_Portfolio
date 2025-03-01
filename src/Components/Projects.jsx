@@ -10,7 +10,7 @@ import { RiScissors2Line } from "react-icons/ri";
 
 export default function Projects() {
   return (
-    <div className="px-24 bg-zinc-100 h-auto">
+    <div className="px-24 bg-zinc-100 h-auto container mx-auto">
       <h1 className="py-8 text-center text-2xl font-semibold">
         Each <span className="text-red-500">project</span> is a unique piece of{" "}
         <span className="text-green-500">development</span>
