@@ -1,10 +1,12 @@
 import React from "react";
 import builder from "../assets/Portfolio_Builder.png";
 import ecommerce from "../assets/eCommerce.png";
+import salon from "../assets/salon.png";
 import { FaCartShopping } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa";
 import { LuSquareArrowOutUpRight } from "react-icons/lu";
 import { RiLayout2Fill } from "react-icons/ri";
+import { RiScissors2Line } from "react-icons/ri";
 
 export default function Projects() {
   return (
@@ -15,7 +17,11 @@ export default function Projects() {
       </h1>
       <div className="flex">
         <div className="h-96">
-          <img src={ecommerce} alt="eCommerce" className="h-full" />
+          <img
+            src={ecommerce}
+            alt="eCommerce"
+            className="h-full object-cover border-[1px] border-black"
+          />
         </div>
         <div className="pl-12 py-8 w-1/2 flex flex-col justify-center">
           <h1 className="font-semibold flex items-center gap-1">
@@ -82,7 +88,52 @@ export default function Projects() {
           </div>
         </div>
         <div className="h-96 pl-12">
-          <img src={builder} alt="portfolio_builder" className="h-full" />
+          <img
+            src={builder}
+            alt="portfolio_builder"
+            className="h-full object-cover border-[1px] border-black"
+          />
+        </div>
+      </div>
+      <div className="flex pb-16">
+        <div className="h-96">
+          <img
+            src={salon}
+            alt="salon"
+            className="h-full object-cover border-[1px] border-black"
+          />
+        </div>
+        <div className="pl-12 py-8 w-1/2 flex flex-col justify-center">
+          <h1 className="font-semibold flex items-center gap-1">
+            <span className="text-emerald-700">Masters & Mane</span> - Hair
+            Salon Website
+            <span className="text-yellow-500">
+              <RiScissors2Line />
+            </span>
+          </h1>
+          <p className="py-4 text-justify">
+            Masters & Mane is a hair salon website which is an online platform
+            that allows users to purchase barber services and other salon
+            products from home. The website provides an interface for shopping,
+            purchasing barber service and contact with own personal barber from
+            home.
+          </p>
+          <div className="flex gap-8 py-4">
+            <a
+              href="https://github.com/dikshitshrestha/Hair_Salon"
+              target="_blank"
+              className="font-semibold flex items-center gap-1.5"
+            >
+              Code <FaGithub />
+            </a>
+            <a
+              href="https://mastersandmane.vercel.app/"
+              target="_blank"
+              className="font-semibold flex items-center gap-1"
+            >
+              Live Demo <LuSquareArrowOutUpRight />
+            </a>
+          </div>
         </div>
       </div>
     </div>
