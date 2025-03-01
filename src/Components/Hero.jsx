@@ -1,7 +1,7 @@
 import React from "react";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
-import profile from "../assets/profile.jpeg";
+import profile from "../assets/Profile.jpeg";
 import { FaHtml5 } from "react-icons/fa";
 import { FaCss3Alt } from "react-icons/fa";
 import { FaJs } from "react-icons/fa";
@@ -19,7 +19,7 @@ export default function Hero() {
           </div>
           <div className="py-7 text-zinc-500 text-[19px]">
             <p>Hi, I'm Dikshit Shrestha. A passionate Front-end React</p>
-            <p>Developer based in Bode, Bhaktapur.</p>
+            <p>Developer based in Teku, Kathmandu.</p>
           </div>
           <div className="flex text-3xl gap-2">
             <a

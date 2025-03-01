@@ -4,7 +4,9 @@ import { NavLink } from "react-router-dom";
 export default function Navbar() {
   return (
     <div className="flex px-10 py-8 justify-between items-center">
-      <h1 className="font-bold text-xl">Dikshit.dev</h1>
+      <h1 className="font-bold text-xl flex">
+        Dikshit <span className="text-rose-500">.dev</span>
+      </h1>
       <nav className="flex gap-6 text-zinc-500">
         <NavLink
           to="/"
@@ -13,14 +15,6 @@ export default function Navbar() {
           }
         >
           Home
-        </NavLink>
-        <NavLink
-          to="/about"
-          className={({ isActive }) =>
-            `${isActive ? "font-semibold text-black" : ""}`
-          }
-        >
-          About
         </NavLink>
         <NavLink
           to="/projects"
@@ -37,7 +31,7 @@ export default function Navbar() {
             `${isActive ? "font-semibold text-black" : ""}`
           }
         >
-          Contacts
+          Contact
         </NavLink>
       </nav>
     </div>

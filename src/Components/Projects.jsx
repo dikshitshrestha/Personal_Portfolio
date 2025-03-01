@@ -3,7 +3,12 @@ import React from "react";
 export default function Projects() {
   return (
     <div>
-      <div>this projects page</div>
+      <div>
+        <div>
+          <img src="" alt="" />
+        </div>
+        <div></div>
+      </div>
     </div>
   );
 }
