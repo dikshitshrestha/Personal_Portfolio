@@ -24,14 +24,14 @@ export default function Projects() {
           />
         </div>
         <div className="xl:pl-12 py-8 w-full flex flex-col justify-center">
-          <h1 className="font-semibold flex items-center gap-1 text-sm">
-            <span className="text-yellow-500">Buyverly</span> - Shopping
-            eCommerce Website
+          <h1 className="font-semibold flex items-center gap-1 text-sm xl:text-xl">
+            <span className="text-yellow-500 xl:text-xl">Buyverly</span> -
+            Shopping eCommerce Website
             <span className="text-orange-500">
               <FaCartShopping />
             </span>
           </h1>
-          <p className="py-4 text-justify text-sm">
+          <p className="py-4 text-justify">
             Buyverly is a shopping website which is an online platform that
             allows users to shop clothing products and accessories. The website
             provides an interface for searching and shopping clothing products
@@ -57,7 +57,7 @@ export default function Projects() {
       </div>
       <div className="flex py-4 xl:py-16 flex-col-reverse xl:flex-row">
         <div className="py-8 xl:w-1/2 flex flex-col justify-center">
-          <h1 className="font-semibold flex items-center gap-1 text-sm">
+          <h1 className="font-semibold flex items-center gap-1 text-sm xl:text-xl">
             <span className="text-sky-600"> Nirvanta</span> - Portfolio Website
             Builder
             <span className="text-red-500">
@@ -104,7 +104,7 @@ export default function Projects() {
           />
         </div>
         <div className="xl:pl-12 py-6 lg:py-8 xl:w-1/2 flex flex-col justify-center">
-          <h1 className="font-semibold flex items-center gap-1 text-sm">
+          <h1 className="font-semibold flex items-center gap-1 text-sm xl:text-xl">
             <span className="text-emerald-700">Masters & Mane</span> - Hair
             Salon Website
             <span className="text-yellow-500">
