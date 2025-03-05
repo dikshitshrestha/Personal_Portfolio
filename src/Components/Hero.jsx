@@ -10,13 +10,13 @@ import { LuSquareArrowOutUpRight } from "react-icons/lu";
 
 export default function Hero() {
   return (
-    <div className="bg-zinc-100 h-max py-10 lg:py-28 xl container mx-auto w-full px-4">
+    <div className="bg-zinc-100 h-max py-10 lg:py-28 lg:px-10 xl:px-36 container mx-auto w-full px-4">
       <div className="flex flex-col-reverse lg:flex-row justify-center items-center gap-6">
-        <div>
-          <div className="text-xl lg:text-5xl text-center font-bold">
+        <div className="lg:w-1/2">
+          <div className="text-xl lg:text-5xl xl:text-6xl lg:text-left text-center font-bold">
             <h1>Front-End React Developer</h1>
           </div>
-          <div className="py-7 text-zinc-500 lg:text-[19px]">
+          <div className="py-7 text-zinc-500 lg:text-[16px] xl:text-[18px] xl:pr-3 text-justify">
             <p>
               Hi, I'm Dikshit Shrestha. A passionate Front-end React Developer
               based in Teku, Kathmandu.
@@ -41,8 +41,8 @@ export default function Hero() {
             </a>
           </div>
         </div>
-        <div className="h-44 xl:h-96 xl:w-96 rounded-full overflow-hidden shadow-zinc-500 shadow-2xl">
-          <img src="/Profile.jpeg" alt="profile" className="h-full w-full" />
+        <div className="h-44 lg:h-60 xl:h-72 rounded-full overflow-hidden shadow-zinc-500 shadow-2xl">
+          <img src="/Profile.jpeg" alt="profile" className="h-full" />
         </div>
       </div>
       <div className="flex items-center justify-center gap-2 lg:gap-8 py-10">

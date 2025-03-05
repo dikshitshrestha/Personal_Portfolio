@@ -30,7 +30,7 @@ export default function Contact() {
           <span className="text-red-500">contact</span> me{" "}
           <span className="text-yellow-400">on:</span>
         </h1>
-        <div className="flex flex-col md:flex-row justify-start lg:grid lg:grid-cols-2 gap-5 mt-5 lg:gap-16">
+        <div className="flex flex-col justify-start lg:grid md:gap-8 lg:grid-cols-2 gap-5 mt-5 lg:gap-16">
           {contact.map((item, index) => (
             <div className="flex items-center gap-3 justify-start w-full text-blue-950">
               <div className="lg:text-5xl text-4xl">{item.icon}</div>
@@ -40,7 +40,7 @@ export default function Contact() {
               </div>
             </div>
           ))}
-          <div className="flex items-center gap-3 lg:justify-center text-blue-950">
+          <div className="flex items-center gap-3 lg:pl-2 text-blue-950">
             <div className="lg:text-5xl text-4xl">
               <FaLinkedin />
             </div>

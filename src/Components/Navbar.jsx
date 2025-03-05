@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 
 export default function Navbar() {
   return (
-    <div className="flex py-6 gap-4 items-center justify-center w-full">
+    <div className="flex py-6 gap-4 items-center justify-center lg:justify-between lg:px-10 w-full">
       <h1 className="font-bold flex">
         Dikshit <span className="text-rose-500">.dev</span>
       </h1>

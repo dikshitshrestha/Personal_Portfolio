@@ -15,7 +15,7 @@ export default function Projects() {
         Each <span className="text-red-500">project</span> is a unique piece of{" "}
         <span className="text-green-500">development</span>
       </h1>
-      <div className="flex-col">
+      <div className="flex flex-col xl:flex-row">
         <div className="lg:h-96 w-full">
           <img
             src={ecommerce}
@@ -23,7 +23,7 @@ export default function Projects() {
             className="h-full object-cover border-[1px] border-black"
           />
         </div>
-        <div className="lg:pl-12 py-8 w-full flex flex-col justify-center">
+        <div className="xl:pl-12 py-8 w-full flex flex-col justify-center">
           <h1 className="font-semibold flex items-center gap-1 text-sm">
             <span className="text-yellow-500">Buyverly</span> - Shopping
             eCommerce Website
@@ -55,8 +55,8 @@ export default function Projects() {
           </div>
         </div>
       </div>
-      <div className="flex py-4 lg:py-16 flex-col-reverse">
-        <div className="py-8 lg:w-1/2 flex flex-col justify-center">
+      <div className="flex py-4 xl:py-16 flex-col-reverse xl:flex-row">
+        <div className="py-8 xl:w-1/2 flex flex-col justify-center">
           <h1 className="font-semibold flex items-center gap-1 text-sm">
             <span className="text-sky-600"> Nirvanta</span> - Portfolio Website
             Builder
@@ -70,7 +70,7 @@ export default function Projects() {
             websites. The website provides an interface for creating portfolio
             website for different types of users from different fields.
           </p>
-          <div className="flex justify-center gap-8 py-1 lg:py-4">
+          <div className="flex justify-center gap-8 py-1 lg:py-3">
             <a
               href="https://github.com/dikshitshrestha/Portfolio_Builder_Frontend"
               target="_blank"
@@ -87,7 +87,7 @@ export default function Projects() {
             </a>
           </div>
         </div>
-        <div className="lg:h-96 lg:pl-12">
+        <div className="lg:h-96 xl:pl-12">
           <img
             src={builder}
             alt="portfolio_builder"
@@ -95,7 +95,7 @@ export default function Projects() {
           />
         </div>
       </div>
-      <div className="flex flex-col lg:pb-16">
+      <div className="flex flex-col lg:pb-8 xl:pb-16 xl:flex-row">
         <div className="lg:h-96">
           <img
             src={salon}
@@ -103,7 +103,7 @@ export default function Projects() {
             className="h-full object-cover border-[1px] border-black"
           />
         </div>
-        <div className="lg:pl-12 py-6 lg:py-8 lg:w-1/2 flex flex-col justify-center">
+        <div className="xl:pl-12 py-6 lg:py-8 xl:w-1/2 flex flex-col justify-center">
           <h1 className="font-semibold flex items-center gap-1 text-sm">
             <span className="text-emerald-700">Masters & Mane</span> - Hair
             Salon Website
