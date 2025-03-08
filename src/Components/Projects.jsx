@@ -35,7 +35,8 @@ export default function Projects() {
             Buyverly is a shopping website which is an online platform that
             allows users to shop clothing products and accessories. The website
             provides an interface for searching and shopping clothing products
-            with many more features.
+            with many more features. It is fully responsive in all type of
+            devices.
           </p>
           <div className="flex justify-center gap-8 py-1 lg:py-4">
             <a
@@ -68,7 +69,8 @@ export default function Projects() {
             Nirvanta is a portfolio website builder which is an online platform
             that allows users to create, host and customize their own portfolio
             websites. The website provides an interface for creating portfolio
-            website for different types of users from different fields.
+            website for different types of users from different fields. It is
+            fully responsive in all type of devices.
           </p>
           <div className="flex justify-center gap-8 py-1 lg:py-3">
             <a
@@ -112,11 +114,12 @@ export default function Projects() {
             </span>
           </h1>
           <p className="py-4 text-justify">
-            Masters & Mane is a hair salon website which is an online platform
-            that allows users to purchase barber services and other salon
-            products from home. The website provides an interface for shopping,
-            purchasing barber service and contact with own personal barber from
-            home.
+            Masters & Mane is a hair salon website which was my first project.
+            It is an online platform that allows users to purchase barber
+            services and other salon products from home. The website provides an
+            interface for shopping, purchasing barber service and contact with
+            own personal barber from home. It is fully responsive in all type of
+            devices.
           </p>
           <div className="flex justify-center gap-8 py-1 lg:py-4">
             <a
