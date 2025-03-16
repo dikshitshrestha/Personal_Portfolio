@@ -33,9 +33,10 @@ export default function Hero() {
               <FaGithub />
             </a>
             <a
-              href="https://docs.google.com/document/d/1HaYrEYk_AxqG0B9IHUUfaxxPtcpEdoGa/edit?usp=drive_link&ouid=102911768468676265891&rtpof=true&sd=true"
+              href="/Dikshit_Shrestha_Resume.pdf"
               className="font-semibold text-[17px] flex items-center gap-1 text-red-500 hover:text-red-700 ease-in-out duration-300"
               target="_blank"
+              rel="noopener noreferrer"
             >
               My CV <LuSquareArrowOutUpRight />
             </a>
