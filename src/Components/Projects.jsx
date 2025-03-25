@@ -1,12 +1,12 @@
 import React from "react";
 import builder from "../assets/Portfolio_Builder.png";
 import ecommerce from "../assets/eCommerce.png";
-import salon from "../assets/salon.png";
+import kidvora from "../assets/Kidvora.png";
 import { FaCartShopping } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa";
 import { LuSquareArrowOutUpRight } from "react-icons/lu";
 import { RiLayout2Fill } from "react-icons/ri";
-import { RiScissors2Line } from "react-icons/ri";
+import { FaBookReader } from "react-icons/fa";
 
 export default function Projects() {
   return (
@@ -100,39 +100,40 @@ export default function Projects() {
       <div className="flex flex-col lg:pb-8 xl:pb-16 xl:flex-row">
         <div className="lg:h-96">
           <img
-            src={salon}
-            alt="salon"
+            src={kidvora}
+            alt="kidvora"
             className="h-full object-cover border-[1px] border-black"
           />
         </div>
         <div className="xl:pl-12 py-6 lg:py-8 xl:w-1/2 flex flex-col justify-center">
           <h1 className="font-semibold flex items-center gap-1 text-sm xl:text-xl">
-            <span className="text-emerald-700">Masters & Mane</span> - Hair
-            Salon Website
+            <span className="text-indigo-500">Kidvora</span> - Kid Course
+            Website
             <span className="text-yellow-500">
-              <RiScissors2Line />
+              <FaBookReader />
             </span>
           </h1>
           <p className="py-4 text-justify">
-            Masters & Mane is a hair salon website which was my first project.
-            It is an online platform that allows users to purchase barber
-            services and other salon products from home. The website provides an
-            interface for shopping, purchasing barber service and contact with
-            own personal barber from home. It is fully responsive in all type of
-            devices.
+            Kidvora is an interactive e-learning platform designed to provide
+            engaging and educational courses for children aged 4 to 12. The
+            website offers a fun and meaningful learning experience, fostering
+            creativity and curiosity through a wide range of interactive
+            content. With a user-friendly interface and a fully responsive
+            design, Kidvora ensures seamless access across all devices, making
+            learning enjoyable anytime, anywhere.
           </p>
           <div className="flex justify-center gap-8 py-1 lg:py-4">
             <a
-              href="https://github.com/dikshitshrestha/Hair_Salon"
+              href="https://github.com/dikshitshrestha/Kidvora"
               target="_blank"
-              className="font-semibold flex items-center gap-1 text-emerald-700"
+              className="font-semibold flex items-center gap-1 text-indigo-500"
             >
               Code <FaGithub />
             </a>
             <a
-              href="https://mastersandmane.vercel.app/"
+              href="https://kidvora.vercel.app/"
               target="_blank"
-              className="font-semibold flex items-center gap-1 text-emerald-700"
+              className="font-semibold flex items-center gap-1 text-indigo-500"
             >
               Live Demo <LuSquareArrowOutUpRight />
             </a>
